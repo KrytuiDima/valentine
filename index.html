@@ -31,6 +31,24 @@
                 <li class="skills-item vip">Створення чарівної атмосфери 💞</li>
             </ul>
         </section>
+        <button id="loveButton">Натисни для романтики 💖</button>
+<p id="loveMessage"></p>
+
+<script>
+    const lovePhrases = [
+        "Кохання – це коли душа знаходить своє відображення в іншій людині ❤️",
+        "Ти – моє серце, яке б'ється найшвидше 💕",
+        "З тобою кожен день – це свято кохання 💖",
+        "Ти – мій всесвіт, моя зірка, моє сонце ☀️",
+        "Справжнє кохання – це коли твоє щастя важливіше за моє 💞"
+    ];
+
+    document.getElementById("loveButton").addEventListener("click", function() {
+        const randomIndex = Math.floor(Math.random() * lovePhrases.length);
+        document.getElementById("loveMessage").textContent = lovePhrases[randomIndex];
+    });
+</script>
+
 
         <footer class="site-footer">
             <p>© День Святого Валентина, 2025</p>

@@ -109,3 +109,28 @@ h2 {
   font-weight: bold;
   padding-top: 15px;
 }
+#loveButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff3366;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#loveButton:hover {
+  background-color: #cc0033;
+}
+
+#loveMessage {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #990033;
+  margin-top: 10px;
+}
+
