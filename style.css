@@ -4,14 +4,15 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #660000;
-  background: #ffe6f2 url("https://img.pikbest.com/wp/202408/pink-love-heart-backgrounds-handcrafted-hearts-standing-out-on-a-white-wooden-texture-background_9908729.jpg!w700wp") no-repeat center top;
+  background: #f0c0ca url("img/women-s-day-elements-pink-background-with-copy-space.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
   text-align: center;
   font-family: "Georgia", serif;
-  font-size: 36px;
+  font-size: 30px;
   color: #ff3366;
 }
 
@@ -86,7 +87,7 @@ h2 {
 
 .feature-gift {
   padding-top: 60px;
-  background-image: url("https://cdn-icons-png.flaticon.com/512/3081/3081797.png");
+  background-image: url("img/hug.png");
   background-size: 50px;
 }
 
